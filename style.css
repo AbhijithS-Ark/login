@@ -1,0 +1,134 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:cursive;
+ }
+    .hero{
+    
+        height:100%;
+        width: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+        background-position: center;
+        background-size:cover;
+        position:absolute;
+    
+    }
+    
+    .form-box{
+    
+        width:25rem;
+        height:31.5rem;
+        position:relative;
+        margin:7% auto;
+        background:#ffffff;
+        padding:5px;
+        overflow:hidden;
+    }
+    .button-box{
+         
+       width:20rem;
+       margin:35px auto;
+       position:relative;
+       box-shadow: 0 0 20px 10px #ff61241f;
+       border-radius:2rem;
+       
+    }
+  .toggle-btn{
+    padding:12px 50px;
+    cursor:pointer;
+    background: transparent;
+    border:none;
+    outline:none;
+    position: relative;
+    font-size:16px;
+    
+
+}
+   #btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:50%;
+    height:100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius:2rem;
+    transition: 0.5s;
+   }
+
+   .social-icns{
+      margin:30px auto; 
+      text-align:center;
+
+   }
+   .social-icns img{
+     
+    width:30px;
+    margin:0 1.5rem;
+     box-shadow:0 0 20px 0 #7f7f7f3d ;
+     cursor:pointer;
+     border-radius:50%;
+     }
+     .input-group{
+         top:180px;
+        position:absolute;
+        width:280px;
+        transition: .5s;
+        
+     }
+     .input-field{
+        width: 100%;
+        padding:10px 0;
+        margin:5px 2rem;
+        border-top:0;
+        border-left:0;
+        border-right:0;
+        border-bottom:2px solid #ff105f;
+         outline:none;
+         background:transparent;
+         
+
+     }
+     .submit-btn{
+
+        width:80%;
+        padding:14px 30px;
+        cursor:pointer;
+        display:block;
+        margin:5px 72px;
+        background:linear-gradient(to right,#ff105f,#ffad06);
+        border:none;
+        border-radius:2rem;
+        outline:none;
+        font-size:18px;
+    
+     }
+    
+     .check-box{
+
+        margin:2rem 5px 2rem 2rem;
+
+     }
+     span{
+
+        color:#777;
+        font-size:13px;
+        bottom:60px;
+    
+     }
+
+     #login{
+      left:10px;
+
+     }
+     #register{
+        left:500px;
+     }
+
+     .submit-btn:hover{
+
+      background:linear-gradient(to right ,#000000,#10fff4);
+      color:#ffffff;
+   }
+
